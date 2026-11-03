@@ -1,0 +1,46 @@
+{
+  "read_config_from": {
+    "agents_standard": true,
+    "claude": true,
+    "cursor": true,
+    "windsurf": true
+  },
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Glob(**)",
+      "Grep(**)",
+      "Exec(npm run *)",
+      "Exec(npx remotion *)",
+      "Exec(npx hyperframes *)",
+      "Exec(npx -y hyperframes@0.7.77 *)",
+      "Exec(.venv/bin/python .devin/skills/*)",
+      "Exec(.venv/bin/python tools/*)",
+      "Exec(.venv/bin/python -c *)",
+      "Exec(node .devin/skills/*)",
+      "Exec(node scripts/*)",
+      "Exec(swift .devin/skills/*)",
+      "Exec(.devin/skills/thumbnail/scripts/render.sh *)",
+      "Exec(ffmpeg *)",
+      "Exec(ffprobe *)",
+      "Exec(git status)",
+      "Exec(git diff *)",
+      "Exec(git log *)",
+      "Exec(ls *)",
+      "Exec(mkdir *)"
+    ],
+    "ask": [
+      "Exec(git *)",
+      "Exec(npx skills *)",
+      "Exec(npx -y skills *)",
+      "Exec(npm install *)",
+      "Exec(pip install *)",
+      "Exec(pip3 install *)",
+      "Exec(.venv/bin/python -m pip *)"
+    ],
+    "deny": [
+      "Exec(sudo *)",
+      "Exec(rm -rf *)"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+node_modules/
+.venv/
+.remotion/
+*.log
+tmp/
+.env
+.idea/
+edicoes/*
+!edicoes/.gitkeep
+projetos/*
+!projetos/LEIA-ME.md
+!projetos/000. exemplo/
+projetos/000. exemplo/**/*.mp4
+projetos/000. exemplo/**/*.mov
+.claude/skills/
+.claude/settings.local.json
+skills-lock.json
+.agents/
+.devin/config.local.json
+.devin/mcp_config.local.json
+.devin/skills/*
+!.devin/skills/assistir/
+!.devin/skills/rough-cut/
+!.devin/skills/shorts/
+!.devin/skills/overlay-graphics/
+!.devin/skills/teaser/
+!.devin/skills/code-animation/
+!.devin/skills/thumbnail/
+!.devin/skills/podcast-edit/
+!.devin/skills/soundtrack/
+!.devin/skills/briefing/
+.devin/skills/code-animation/scripts/node_modules/
+.devin/skills/overlay-graphics/scripts/node_modules/
+.devin/skills/soundtrack/scripts/node_modules/
+projetos/*/trabalho/
+assets/thumbnail/
+__pycache__/
+*.pyc
+/clawd/**
+/duke/**
+
+# Lixo de sistema
+.DS_Store
+**/.DS_Store
+
+# Código dos vídeos pessoais (cada vídeo é um projeto do usuário; Root.tsx registra os seus)
+/src/videos/*
+!/src/videos/.gitkeep
+
+# Artefatos de mídia e renders
+out/
+renders/
+*.mp4
+*.mov
+*.mp3
+*.wav

@@ -1,0 +1,3 @@
+faster-whisper>=1.2,<1.3
+av>=15,<19
+pillow>=10,<13
